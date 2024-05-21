@@ -1,0 +1,42 @@
+@font-face
+{
+	font-family: nicefont;
+	src: url(SHOWG.TTF);
+}
+body
+{
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-position: center center;
+	margin: 0px;
+}
+.container
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+h1
+{
+	font-family: nicefont;
+	font-size: 3em;
+	border-bottom: 3px solid rosybrown;
+	border-right: 3px solid rosybrown;
+	width: 350px;
+	background-image: url(h2back.jpg);
+	color: darkkhaki;
+	
+}
+img
+{
+	margin: 10px;
+	width: 400px;
+	height: 300px;
+	transition: all .5s;
+}
+img:hover
+{
+	transform: scale(1.05);
+
+}
